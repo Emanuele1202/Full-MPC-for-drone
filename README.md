@@ -30,9 +30,12 @@ This project demonstrates the implementation of a Model Predictive Control (MPC)
 6. Then you can run the main, the OCP and the feedback are implemented in the `mpc.m` file.
 
 ## Experiments
-Experiments have been conducted in the Gazebo simulation environment to validate the performance of the MPC algorithm. Below is a snapshot of the GENOM connection and a video of the drone simulation in Gazebo:
+Experiments have been conducted in the Gazebo simulation environment to validate the performance of the MPC algorithm. Below is a snapshot of the GENOM connection:
 
-[![GENOM Connection](resources/genom_connection.png)](resources/genom_connection.png)
+![resources/genom_connection.png](resources/genom_connection.png)
 
-[![MPC Drone Control](resources/single_drone_mpc.gif.mp4)](resources/single_drone_mpc.gif.mp4)
+And a video of the drone simulation in Gazebo:
+   
+   ![resources/drone_simulation.png](resources/single_drone_mpc.gif.mp4)
 
+   ![printer-sim-gif](https://github.com/SimoneMacci0/sofar-printer-simulator/blob/main/printer_sim.gif)
