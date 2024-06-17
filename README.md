@@ -32,10 +32,8 @@ This project demonstrates the implementation of a Model Predictive Control (MPC)
 ## Experiments
 Experiments have been conducted in the Gazebo simulation environment to validate the performance of the MPC algorithm. Below is a snapshot of the GENOM connection:
 
-![resources/genom_connection.png](resources/genom_connection.png)
+![resources/genom_connection.png](https://github.com/Emanuele1202/Full-MPC-for-drone/blob/main/resources/genom_components_connections.png)
 
 And a video of the drone simulation in Gazebo:
    
-   ![resources/drone_simulation.png](resources/single_drone_mpc.gif.mp4)
-
-   ![printer-sim-gif](https://github.com/SimoneMacci0/sofar-printer-simulator/blob/main/printer_sim.gif)
+   ![resources/drone_simulation.png](https://github.com/Emanuele1202/Full-MPC-for-drone/blob/main/resources/single_drone_mpc.gif.mp4)
