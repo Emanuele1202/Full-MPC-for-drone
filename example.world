@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <world name="mrsim">
+    <physics type='ode'>
+      <max_step_size>0.002000</max_step_size>
+      <real_time_factor>1.000000</real_time_factor>
+      <real_time_update_rate>500.000000</real_time_update_rate>
+      <gravity>0 0 -9.81</gravity>
+      <magnetic_field>23.816e-6 -0.41e-6 -39.829e-6</magnetic_field>
+    </physics>
+
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <uri>model://mrsim-quadrotor</uri>
+      <name>quad</name>
+      <pose>0 0 0.025 0 0 0</pose>
+    </include>
+
+    <plugin name="optitrack" filename="optitrack-gazebo.so">
+      <hz>1000</hz>
+      <port>1509</port>
+      <publish>
+        <link>quad::base</link>
+        <name>quad</name>
+      </publish>
+    </plugin>
+  </world>
+</sdf>
+
+
