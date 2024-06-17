@@ -36,4 +36,4 @@ Experiments have been conducted in the Gazebo simulation environment to validate
 
 And a video of the drone simulation in Gazebo:
    
-   ![resources/drone_simulation.png](https://github.com/Emanuele1202/Full-MPC-for-drone/blob/main/resources/single_drone_mpc.gif.mp4)
+   ![resources/drone_simulation.png](https://github.com/Emanuele1202/Full-MPC-for-drone/blob/main/resources/gazebo_example.webm)
